@@ -4,7 +4,7 @@ def strong_life(a,b):
         pov = 1.03*b
         money += pov-a
         b = 1.03*i*b
-        print(b)
+        print(b
     return money
 
 
