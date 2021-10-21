@@ -26,9 +26,6 @@ files:
     empty_set = set()  # Пустое множество
     print(set_, empty_set, type(set_))
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
@@ -39,6 +36,9 @@ files:
     [] <class 'list'>
     test <class 'str'>
     {1, 2, 3} set() <class 'set'>
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Solved
 feedback:

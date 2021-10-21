@@ -29,13 +29,13 @@ files:
 
     # TODO c помощью функции print рачпечатайте значение переменной input_str и её тип
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
     Введите строку Hello World: Hello World <class 'str'>
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Solved
 feedback:

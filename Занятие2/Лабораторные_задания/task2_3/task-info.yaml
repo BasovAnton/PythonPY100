@@ -1,8 +1,5 @@
 type: output
 files:
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   learner_created: false
@@ -50,6 +47,9 @@ files:
         ]
 
         # TODO распечатать фамилии и их номера
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Failed
 feedback:

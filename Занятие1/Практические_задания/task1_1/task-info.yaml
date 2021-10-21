@@ -1,8 +1,5 @@
 type: theory
 files:
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: main.py
   visible: true
   placeholders:
@@ -30,6 +27,9 @@ files:
     my_variable = ...  # TODO строковая переменная Hello World
 
     # TODO с помощью функции print распечатать переменную my_variable
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Solved
 feedback:

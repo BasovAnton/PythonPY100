@@ -16,13 +16,13 @@ files:
   text: |
     ...  # TODO найти сумму натуральных чисел
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
     80
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Unchecked
 record: -1

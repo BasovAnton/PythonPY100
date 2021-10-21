@@ -16,13 +16,13 @@ files:
   text: |
     print(True ... False)  # True
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
     True
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Solved
 feedback:

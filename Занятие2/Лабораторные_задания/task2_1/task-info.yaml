@@ -39,9 +39,6 @@ files:
         for i in ...:  # TODO как получить последовательность чисел?
             print(...)  # TODO печать ступени
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
@@ -49,6 +46,9 @@ files:
     **
     ***
     ****
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Solved
 feedback:

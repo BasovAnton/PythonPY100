@@ -44,14 +44,14 @@ files:
     print(d, e)
     print(...)  # TODO вычисления можно производить прямо в функции print
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
     2 5
     7
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Solved
 feedback:

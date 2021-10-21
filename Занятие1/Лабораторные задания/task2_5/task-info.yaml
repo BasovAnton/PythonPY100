@@ -18,13 +18,13 @@ files:
 
     print(list_)
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
     [1, 3, 5, 7, 9]
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Unchecked
 record: -1

@@ -27,13 +27,13 @@ files:
   text: |
     print(20 ... 30)# TODO Вставьте любой оператор сравнения, чтобы выжение было истинным
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
     True
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Solved
 feedback:
