@@ -4,8 +4,8 @@ def strong_life(b, a):
         k = 1.03**i
         b_new = k*b
         money += b_new-a
-        print(round(b_new,2), round(money,2))
-    return round(money,2)
+        print(round(b_new, 2), round(money, 2))
+    return round(money, 2)
 
 
 if __name__ == "__main__":
