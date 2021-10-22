@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 100
-    length: 75
+    length: 7
     placeholder_text: '...  # TODO использую оператор возведения в степень найти площадь
       круга'
     initial_state:

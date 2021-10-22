@@ -1,6 +1,6 @@
 length = int(input("Длина: "))
-width = int(input("Ширина: "))  # TODO привести к целочисленному типу данных
+width = input("Ширина: ")  # TODO привести к целочисленному типу данных
 
-perimeter = 2*(length+width)
+perimeter = ...  # TODO посчитать периметр прямоугольника
 
 print(perimeter)
