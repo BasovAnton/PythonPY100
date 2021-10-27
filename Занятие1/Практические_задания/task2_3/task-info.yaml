@@ -8,7 +8,7 @@ files:
     placeholder_text: '...  # TODO использую оператор возведения в степень найти площадь
       круга'
     initial_state:
-      length: 71
+      length: 7
       offset: 100
     initialized_from_dependency: false
     selected: true

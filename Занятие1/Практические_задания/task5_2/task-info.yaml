@@ -7,7 +7,7 @@ files:
     length: 13
     placeholder_text: '...  # TODO кортеж может сам развернуть свои значения по переменным'
     initial_state:
-      length: 67
+      length: 13
       offset: 58
     initialized_from_dependency: false
     selected: true
