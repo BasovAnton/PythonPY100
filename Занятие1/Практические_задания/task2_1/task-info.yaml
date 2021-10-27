@@ -11,7 +11,7 @@ files:
       offset: 12
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Failed
     encrypted_possible_answer: 'input("Введите строку Hello World: ")'
   - offset: 51
     length: 33
@@ -22,23 +22,26 @@ files:
       offset: 67
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Failed
     encrypted_possible_answer: print(input_str, type(input_str))
   text: |
     input_str = input()  # TODO заполните подсказку для функции input
 
     # TODO c помощью функции print рачпечатайте значение переменной input_str и её тип
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
     Введите строку Hello World: Hello World <class 'str'>
   learner_created: false
-status: Solved
+- name: __init__.py
+  visible: false
+  learner_created: false
+status: Failed
 feedback:
-  message: Congratulations!
-  time: Wed, 06 Oct 2021 17:05:44 UTC
+  message: Incorrect
+  time: Fri, 22 Oct 2021 11:05:43 UTC
+  expected: |
+    Введите строку Hello World: Hello World <class 'str'>
+  actual: 'Введите строку Hello World: '
 record: -1

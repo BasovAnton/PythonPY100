@@ -98,9 +98,6 @@ files:
     print("Минимальная цифра", ...)  # TODO минимальная цифра
     print("Максимальная цифра", ...)  # TODO максимальная цифра
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
@@ -109,6 +106,9 @@ files:
     Количество цифр 3
     Минимальная цифра 1
     Максимальная цифра 3
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Solved
 feedback:

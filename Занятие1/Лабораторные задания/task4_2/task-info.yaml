@@ -19,10 +19,10 @@ files:
 
     print(result_list)
   learner_created: false
-- name: __init__.py
+- name: tests/output.txt
   visible: false
   learner_created: false
-- name: tests/output.txt
+- name: __init__.py
   visible: false
   learner_created: false
 status: Unchecked

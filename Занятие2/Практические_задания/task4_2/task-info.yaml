@@ -60,13 +60,13 @@ files:
 
         print("Минимальный элемент =", min_value, "находится по индексу", min_value_index)
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
     Минимальный элемент = -1 находится по индексу 6
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Solved
 feedback:

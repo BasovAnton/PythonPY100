@@ -1,8 +1,5 @@
 type: output
 files:
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   learner_created: false
@@ -45,6 +42,9 @@ files:
                 min_value_index = i
 
         print("Минимальный элемент =", min_value, "находится по индексу", min_value_index)
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Unchecked
 record: -1

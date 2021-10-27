@@ -23,9 +23,6 @@ files:
 
     # TODO Каждое из значений печатать на отдельной строке
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
@@ -34,6 +31,9 @@ files:
     -0.3
     -10
     10
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Unchecked
 record: -1

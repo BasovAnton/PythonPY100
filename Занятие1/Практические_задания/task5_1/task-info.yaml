@@ -21,16 +21,16 @@ files:
 
     print(a, b)
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
     False True
   learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
 status: Solved
 feedback:
   message: Congratulations!
-  time: Wed, 06 Oct 2021 17:58:12 UTC
+  time: Fri, 22 Oct 2021 11:25:21 UTC
 record: -1

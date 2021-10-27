@@ -1,8 +1,5 @@
 type: theory
 files:
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: main.py
   visible: true
   placeholders:
@@ -31,8 +28,11 @@ files:
 
     # TODO с помощью функции print распечатать переменную my_variable
   learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
 status: Solved
 feedback:
-  time: Wed, 06 Oct 2021 16:45:38 UTC
+  time: Fri, 22 Oct 2021 11:22:25 UTC
 record: -1
 post_submission_on_open: true

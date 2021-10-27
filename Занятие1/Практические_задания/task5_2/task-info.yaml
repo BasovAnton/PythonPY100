@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 58
-    length: 77
+    length: 13
     placeholder_text: '...  # TODO кортеж может сам развернуть свои значения по переменным'
     initial_state:
       length: 67
@@ -19,16 +19,16 @@ files:
 
     print(int_, str_, list_)
   learner_created: false
-- name: __init__.py
+- name: tests/output.txt
   visible: false
   learner_created: false
-- name: tests/output.txt
+- name: __init__.py
   visible: false
   learner_created: false
 status: Failed
 feedback:
   message: Incorrect
-  time: Wed, 06 Oct 2021 18:01:28 UTC
+  time: Fri, 22 Oct 2021 11:26:11 UTC
   actual: |
     1 str [1, 2, 3]
 record: -1

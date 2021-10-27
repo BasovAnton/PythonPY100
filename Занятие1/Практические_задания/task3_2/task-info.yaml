@@ -87,9 +87,6 @@ files:
 
     print(...)  # TODO найти количество книг, которое поместится на дискете
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/output.txt
   visible: false
   text: |
@@ -98,8 +95,11 @@ files:
 - name: bytes_table.png
   visible: true
   learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
 status: Solved
 feedback:
   message: Congratulations!
-  time: Wed, 06 Oct 2021 17:28:32 UTC
+  time: Fri, 22 Oct 2021 10:46:37 UTC
 record: -1

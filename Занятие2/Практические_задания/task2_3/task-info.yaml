@@ -8,11 +8,11 @@ options:
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:
-- name: main.py
-  visible: true
-  learner_created: false
 - name: __init__.py
   visible: false
+  learner_created: false
+- name: main.py
+  visible: true
   learner_created: false
 status: Solved
 feedback:
