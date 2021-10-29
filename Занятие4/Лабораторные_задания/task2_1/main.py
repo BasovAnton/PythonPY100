@@ -11,8 +11,8 @@ if __name__ == "__main__":
         list_ = [int(i) for i in str(n)]
         print(list_[0]-list_[-1])
 
-        a=10
-        b=0
+        a = 10
+        b = 0
         for i, value in enumerate(list_):
             if value <a:
                 a=value
