@@ -15,7 +15,7 @@ files:
     status: Solved
     encrypted_possible_answer: 0
   - offset: 282
-    length: 53
+    length: 19
     placeholder_text: '...:  # TODO как перебрать все индексы?'
     initial_state:
       length: 39
@@ -24,8 +24,8 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: 'range(len(list_)):'
-  - offset: 360
-    length: 57
+  - offset: 326
+    length: 10
     placeholder_text: '...  # TODO как получить текущий элемент по индексу?'
     initial_state:
       length: 52
@@ -34,8 +34,8 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: list_[i]
-  - offset: 429
-    length: 62
+  - offset: 348
+    length: 27
     placeholder_text: '...:  # TODO  какое сравнение используем?'
     initial_state:
       length: 41

@@ -5,9 +5,9 @@ if __name__ == "__main__":
     min_value_index = 0  # TODO чему равен индекс предполагаемого минимального элемента?
     min_value = list_[min_value_index]
 
-    for i in range(len(list_)):  # TODO как перебрать все индексы?
-        current_value = list_[i]  # TODO как получить текущий элемент по индексу?
-        if current_value<=min_value:  # TODO  какое сравнение используем?
+    for i in range(len(list_)):
+        current_value = list_[i]
+        if current_value<=min_value:
             min_value = current_value
             min_value_index = i
 
