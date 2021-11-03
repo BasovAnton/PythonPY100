@@ -1,4 +1,5 @@
 from logic import init_field, set_cell, is_win, is_available_cell
+from typing import Tuple
 
 
 def is_win_cli(field, player_symbol):
@@ -26,7 +27,7 @@ def print_field(field: list) -> None:
         print()
 
 
-def get_step(player_symbol: str):
+def get_step(player_symbol: str) -> Tuple[int, int]:
     while True:
         step = input(f"Игрок {player_symbol} "
                      f"введите две координаты через пробел: ")
