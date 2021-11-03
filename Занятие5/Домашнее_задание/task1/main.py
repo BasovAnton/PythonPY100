@@ -3,7 +3,7 @@ if __name__ == "__main__":
     #     [1, 2, 3],
     #     [4, 5, 6],
     #     [7, 8, 9]
-    #]
+    # ]
 
     # for row in range(len(matrix)):
     #     for col in range(len(matrix[0])):
@@ -11,8 +11,8 @@ if __name__ == "__main__":
     #     print()
 
     matrix = [
-        [i*j for j in range(1,10)]
-        for i in range(1,10)
+        [i*j for j in range(1, 10)]
+        for i in range(1, 10)
     ]
 
     for row in range(len(matrix)):

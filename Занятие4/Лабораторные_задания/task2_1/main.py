@@ -14,12 +14,10 @@ if __name__ == "__main__":
         a = 10
         b = 0
         for i, value in enumerate(list_):
-            if value <a:
-                a=value
-                b=i
-        print(a,b)
-
+            if value < a:
+                a = value
+                b = i
+        print(a, b)
 
 
     number(5679)
-

@@ -3,14 +3,14 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 27
-    length: 63
+  - offset: 39
+    length: 41
     placeholder_text: '[i for i in range(10)]  # TODO'
     initial_state:
-      length: 0
-      offset: 27
+      length: 30
+      offset: 39
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: '[i ** 2 if i % 2 == 0 else -i for i in range(10)]'
   text: |+
@@ -25,6 +25,6 @@ files:
   learner_created: false
 status: Solved
 feedback:
-  time: Wed, 27 Oct 2021 15:30:52 UTC
+  time: Mon, 01 Nov 2021 12:09:04 UTC
 record: -1
 post_submission_on_open: true
